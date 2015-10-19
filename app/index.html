@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Pierwsze repozytorium</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+
+		<!-- bower:css -->
+		<!-- endbower -->
+	</head>
+	<body>
+
+	<div ng-app="starter">
+		<div ng-controller="ctrlTest">
+			<h1>Hello {{name}} </h1>
+			<div>
+				<input type="text" value="{{name}}" ng-model="name" />
+			</div>
+		</div>
+	</div>
+
+		<!-- bower:js -->
+		<script src="lib/angular/angular.js"></script>
+		<!-- endbower -->
+		<script src="js/app.js"></script>
+
+	</body>
+</html>
